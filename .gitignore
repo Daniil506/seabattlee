@@ -1,13 +1,14 @@
-<<<<<<< HEAD
 .vs/
 x64/
 x86/
 Debug/
 Release/
 build/
+build-*/
 bin/
 obj/
 packages/
+vcpkg_installed/
 *.user
 *.suo
 *.VC.db
@@ -21,74 +22,23 @@ packages/
 *.sdf
 *.opensdf
 *.ipch
-=======
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+*.exe
+*.dll
+*.lib
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.o
+*.a
 *.so
 *.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
+*.gch
+*.pch
+*.d
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
 Testing/
 .cache/
->>>>>>> ee0a21380b1c8a5bba4d2dc39265b839bb5c1ee2
+*.tmp
+*.bak
+*.swp
